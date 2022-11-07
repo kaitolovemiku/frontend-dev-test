@@ -1,0 +1,39 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: .5rem 0;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+.headerTest {
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerCenter {
+    justify-content: space-between;
+}
+
+a > span{
+    padding: 0 12rem;
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
